@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlInterceptor", "UrlInterceptor\UrlInterceptor.csproj", "{A705BBB5-3409-4A09-B893-D1A273DB38EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlInterceptor", "src\UrlInterceptor\UrlInterceptor.csproj", "{E18EAC8D-FFD6-4AE2-8CAE-17F493D7BFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlInterceptor.Ip", "src\UrlInterceptor.Ip\UrlInterceptor.Ip.csproj", "{F07718BB-E1B1-4609-BEF6-D05806DBEC0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A705BBB5-3409-4A09-B893-D1A273DB38EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A705BBB5-3409-4A09-B893-D1A273DB38EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A705BBB5-3409-4A09-B893-D1A273DB38EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A705BBB5-3409-4A09-B893-D1A273DB38EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18EAC8D-FFD6-4AE2-8CAE-17F493D7BFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18EAC8D-FFD6-4AE2-8CAE-17F493D7BFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18EAC8D-FFD6-4AE2-8CAE-17F493D7BFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18EAC8D-FFD6-4AE2-8CAE-17F493D7BFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07718BB-E1B1-4609-BEF6-D05806DBEC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07718BB-E1B1-4609-BEF6-D05806DBEC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07718BB-E1B1-4609-BEF6-D05806DBEC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07718BB-E1B1-4609-BEF6-D05806DBEC0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

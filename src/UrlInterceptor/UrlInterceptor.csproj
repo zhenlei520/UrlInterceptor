@@ -17,9 +17,16 @@
     <PackageIconUrl />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\packageIcon.png">
+    <None Include="..\..\packageIcon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Middleware" />
   </ItemGroup>
 </Project>
